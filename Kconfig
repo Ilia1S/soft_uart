@@ -1,0 +1,5 @@
+config SERIAL_SOFT_UART
+	tristate "Software-based serial port module"
+    select SERIAL_CORE
+	help
+	  Add support for software-based serial port module
